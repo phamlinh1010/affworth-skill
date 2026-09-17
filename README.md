@@ -6,7 +6,17 @@ Skill cho Claude Code / agent bất kỳ: đưa vào một tên miền shop, tr�
 Số liệu lấy từ [AffWorth](https://affworth.com?ref=gh-skill) — kho gần 48.000 chương trình affiliate
 đã chấm sẵn, tra trực tiếp được cả tên miền chưa có trong kho.
 
-## Cài đặt
+## Cách nhanh hơn: cắm thẳng MCP server
+
+Không cần cài gì, thêm vào Claude/ChatGPT một địa chỉ:
+
+```
+https://affworth.com/mcp
+```
+
+Ba công cụ có sẵn: `tra_mot_shop`, `loc_chuong_trinh`, `tong_quan_kho`.
+
+## Cài đặt skill (cách 2)
 
 ```bash
 git clone https://github.com/phamlinh1010/affworth-skill
